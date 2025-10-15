@@ -2,6 +2,8 @@ import PersonCard from '../components/PersonCard';
 import './AboutUs.css';
 
 const AboutUs = () => {
+  const baseUrl = import.meta.env.BASE_URL;
+  
   const teamMembers = [
     {
       name: "Tomáš Pavúk",
@@ -11,7 +13,7 @@ const AboutUs = () => {
     {
       name: "Marcel Brand",
       description: "Marcel Brand študuje na Fakulte elektrotechniky a informatiky Slovenskej technickej univerzity v Bratislave, odbor aplikovaná informatika so zameraním na kybernetickú bezpečnosť. Zaujíma sa o umelú inteligenciu, strojové učenie a spracovanie prirodzeného jazyka (NLP), ako aj o vývoj webových aplikácií a odporúčacie systémy. Má skúsenosti s programovaním v Pythone a JavaScripte (React, Node.js) a s prácou s databázami PostgreSQL.",
-      photo: `${import.meta.env.BASE_URL}photos/marcel.jpg`
+      photo: `${baseUrl}photos/marcel.jpg`
     },
     {
       name: "Matúš Bartík",
