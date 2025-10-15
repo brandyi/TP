@@ -1,11 +1,12 @@
 import './Memorandum.css';
 
 const Memorandum = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   const meetings = [
     {
       date: "9 októbra 2025",
       title: "Stretnutie 0",
-      pdfUrl: "/memorandum/Zápisnica 0.pdf"
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 0.pdf`
     },
   ];
 
