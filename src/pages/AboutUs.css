@@ -1,0 +1,72 @@
+.about-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #203a43 0%, #2c5364 50%, #0f2027 100%);
+}
+
+.about-header {
+  background: transparent;
+  color: white;
+  padding: 2.5rem 2rem 1rem 2rem;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+}
+
+.about-subtitle {
+  font-size: 1.3rem;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.team-section-about {
+  padding: 1rem 2rem 2.5rem 2rem;
+  background: transparent;
+  min-height: 50vh;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2rem;
+  }
+  
+  .about-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .about-header {
+    padding: 3rem 1rem;
+  }
+  
+  .team-section-about {
+    padding: 3rem 1rem;
+  }
+  
+  .content-wrapper {
+    padding: 0 1rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

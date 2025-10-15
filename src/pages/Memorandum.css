@@ -1,0 +1,143 @@
+.memorandum-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #203a43 0%, #2c5364 50%, #0f2027 100%);
+}
+
+.memorandum-header {
+  background: transparent;
+  color: white;
+  padding: 3rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.memorandum-title {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+}
+
+.memorandum-subtitle {
+  font-size: 1.3rem;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem 2.5rem 2rem;
+}
+
+.meetings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.meeting-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.meeting-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.meeting-info {
+  flex: 1;
+}
+
+.meeting-date {
+  color: #2c5364;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.meeting-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.meeting-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.view-btn,
+.download-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+.view-btn {
+  background: #2c5364;
+  color: white;
+}
+
+.view-btn:hover {
+  background: #203a43;
+  transform: scale(1.05);
+}
+
+.download-btn {
+  background: white;
+  color: #2c5364;
+  border: 2px solid #2c5364;
+}
+
+.download-btn:hover {
+  background: #2c5364;
+  color: white;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .memorandum-title {
+    font-size: 2rem;
+  }
+  
+  .memorandum-header {
+    padding: 3rem 1rem;
+  }
+  
+  .content-wrapper {
+    padding: 2rem 1rem;
+  }
+  
+  .meeting-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .meeting-actions {
+    width: 100%;
+    justify-content: stretch;
+  }
+  
+  .view-btn,
+  .download-btn {
+    flex: 1;
+    text-align: center;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
