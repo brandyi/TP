@@ -17,8 +17,8 @@ const AboutUs = () => {
     },
     {
       name: "Matúš Bartík",
-      description: "",
-      photo: "https://via.placeholder.com/150/0099cc/ffffff?text=MB"
+      description: "Matúš Bartík študuje na Fakulte elektrotechniky a informatiky Slovenskej technickej univerzity v Bratislave, odbor aplikovaná informatika so zameraním na kybernetickú bezpečnosť. Pracuje ako Test Automation Engineer, kde sa venuje automatizácii testovania softvérových riešení. Zaujíma sa o webový vývoj, umelú inteligenciu a kybernetickú bezpečnosť. Má skúsenosti s programovaním v Pythone a JavaScripte, s vývojom webových aplikácií v Reacte a prácou s databázami MySQL.",
+      photo: `${baseUrl}photos/matus.jpg`
     },
     {
       name: "Dávid Babka",
