@@ -8,6 +8,11 @@ const Memorandum = () => {
       title: "Stretnutie 0",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 0.pdf`
     },
+    {
+      date: "16 októbra 2025",
+      title: "Stretnutie 1",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 1.pdf`
+    }
   ];
 
   return (
