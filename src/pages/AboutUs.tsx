@@ -27,8 +27,8 @@ const AboutUs = () => {
     },
     {
       name: "Peter Macko",
-      description: "",
-      photo: "https://via.placeholder.com/150/00d4ff/ffffff?text=PM"
+      description: "Peťo vyštudoval bakalára z informatiky na Žilinskej Univerzite na Fakulte Riadenia a Informatiky a rozhodol sa prestúpiť na inžiniersky stupeň na STU FEI v Bratislave. Zaujíma sa o kybernetickú bezpečnosť. Skúsenosti: Java, PHP, relačné databázy.",
+      photo: `${baseUrl}photos/peto.jpg`
     }
   ];
 
