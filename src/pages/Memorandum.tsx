@@ -12,6 +12,11 @@ const Memorandum = () => {
       date: "16 októbra 2025",
       title: "Stretnutie 1",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 1.pdf`
+    },
+    {
+      date: "23 októbra 2025",
+      title: "Stretnutie 2",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 2.pdf`
     }
   ];
 
