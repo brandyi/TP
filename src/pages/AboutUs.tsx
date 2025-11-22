@@ -8,7 +8,7 @@ const AboutUs = () => {
     {
       name: "Tomáš Pavúk",
       description: "",
-      photo: "https://via.placeholder.com/150/00d4ff/ffffff?text=TP"
+      photo: `${baseUrl}photos/tomas.jpg`
     },
     {
       name: "Marcel Brand",
