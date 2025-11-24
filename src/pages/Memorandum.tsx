@@ -19,14 +19,19 @@ const Memorandum = () => {
       pdfUrl: `${baseUrl}memorandum/Zápisnica 2.pdf`
     },
     {
-      date: "13 novembra 2025",
+      date: "6 novembra 2025",
       title: "Stretnutie 3",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 3.pdf`
     },
     {
-      date: "20 novembra 2025",
+      date: "13 novembra 2025",
       title: "Stretnutie 4",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 4.pdf`
+    },
+    {
+      date: "20 novembra 2025",
+      title: "Stretnutie 5",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 5.pdf`
     }
   ];
 

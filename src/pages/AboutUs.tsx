@@ -7,7 +7,7 @@ const AboutUs = () => {
   const teamMembers = [
     {
       name: "Tomáš Pavúk",
-      description: "",
+      description: "Tomáš Pavúk študuje na Fakulte elektrotechniky a informatiky Slovenskej technickej univerzity v Bratislave, odbor aplikovaná informatika. Pracuje ako AI/Web Developer v startupe AiCarpus/WristPlanner, kde sa podieľa aj na návrhu a tvorbe produktových riešení. V rámci tohoto startupu pracuje na projektoch využívajúcich umelú inteligenciu a LLM agentov, vrátane inteligentných nástrojov pre Microsoft Teams a riešení pre smart hodinky, kde navrhuje architektúru a ML pipeline na detekciu pracovných aktivít a bezpečnostných aspektov. Okrem toho pôsobí aj v ďalšom startupe. Má skúsenosti s vývojom AI riešení, webových aplikácií a návrhom systémovej architektúry.",
       photo: `${baseUrl}photos/tomas.jpg`
     },
     {
@@ -22,8 +22,8 @@ const AboutUs = () => {
     },
     {
       name: "Dávid Babka",
-      description: "",
-      photo: "https://via.placeholder.com/150/00d4ff/ffffff?text=DB"
+      description: "Dávid Babka je študentom Fakulty elektrotechniky a informatiky Slovenskej technickej univerzity v Bratislave, kde sa venuje odboru aplikovanej informatiky so špecializáciou na kybernetickú bezpečnosť. Zaujíma sa o vývoj webových aplikácií. Najviac skúseností má s programovaním v jazyku JavaScript, vývojom webových aplikácií a prácou s rôznymi databázovými systémami.",
+      photo: `${baseUrl}photos/david.jpg`
     },
     {
       name: "Peter Macko",
