@@ -36,27 +36,27 @@ const Memorandum = () => {
     {
       date: "5 decembra 2025",
       title: "Stretnutie 7",
-      pdfUrl: `${baseUrl}memorandum/Zápisnica 7.pdf`
+      pdfUrl: `${baseUrl}memorandum/Zápisnica7.pdf`
     },
     {
       date: "24 februára 2026",
       title: "Stretnutie 8",
-      pdfUrl: `${baseUrl}memorandum/Zápisnica 8.pdf`
+      pdfUrl: `${baseUrl}memorandum/Zápisnica8.pdf`
     },
     {
       date: "17 marca 2026",
       title: "Stretnutie 9",
-      pdfUrl: `${baseUrl}memorandum/Zápisnica 9.pdf`
+      pdfUrl: `${baseUrl}memorandum/Zápisnica9.pdf`
     },
     {
       date: "31 marca 2026",
       title: "Stretnutie 10",
-      pdfUrl: `${baseUrl}memorandum/Zápisnica 10.pdf`
+      pdfUrl: `${baseUrl}memorandum/Zápisnica10.pdf`
     },
     {
       date: "7 apríla 2026",
       title: "Stretnutie 11",
-      pdfUrl: `${baseUrl}memorandum/Zápisnica 11.pdf`
+      pdfUrl: `${baseUrl}memorandum/Zápisnica11.pdf`
     }
   ];
 
