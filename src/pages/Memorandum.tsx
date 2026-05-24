@@ -5,33 +5,58 @@ const Memorandum = () => {
   const meetings = [
     {
       date: "9 októbra 2025",
-      title: "Stretnutie 0",
-      pdfUrl: `${baseUrl}memorandum/Zápisnica 0.pdf`
-    },
-    {
-      date: "16 októbra 2025",
       title: "Stretnutie 1",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 1.pdf`
     },
     {
-      date: "23 októbra 2025",
+      date: "16 októbra 2025",
       title: "Stretnutie 2",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 2.pdf`
     },
     {
-      date: "6 novembra 2025",
+      date: "23 októbra 2025",
       title: "Stretnutie 3",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 3.pdf`
     },
     {
-      date: "13 novembra 2025",
+      date: "6 novembra 2025",
       title: "Stretnutie 4",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 4.pdf`
     },
     {
-      date: "20 novembra 2025",
+      date: "13 novembra 2025",
       title: "Stretnutie 5",
       pdfUrl: `${baseUrl}memorandum/Zápisnica 5.pdf`
+    },
+    {
+      date: "20 novembra 2025",
+      title: "Stretnutie 6",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 6.pdf`
+    },
+    {
+      date: "5 decembra 2025",
+      title: "Stretnutie 7",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 7.pdf`
+    },
+    {
+      date: "24 februára 2026",
+      title: "Stretnutie 8",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 8.pdf`
+    },
+    {
+      date: "17 marca 2026",
+      title: "Stretnutie 9",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 9.pdf`
+    },
+    {
+      date: "31 marca 2026",
+      title: "Stretnutie 10",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 10.pdf`
+    },
+    {
+      date: "7 apríla 2026",
+      title: "Stretnutie 11",
+      pdfUrl: `${baseUrl}memorandum/Zápisnica 11.pdf`
     }
   ];
 
